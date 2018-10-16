@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  Localizer
+
+  Created by Yubin on 10.10.18.
+  Copyright © 2018 Yubin. All rights reserved.
+*/
+
+// App
+"App.Quit" = "結束";
+"App.LaunchAtLogin" = "開啟並登入";
+
+// General
+"General.OK" = "確定";
+"General.Cancel" = "取消";
+
+// Clock
+"Clock.Alarm" = "警報";
+"Clock.Alarm.Set" = "設定";
+"Clock.Alarm.SetAlarm" = "設定警報";
+"Clock.Timer" = "計時器";
+"Clock.Timer.Start" = "開始";
+"Clock.Timer.SetTimer" = "設定計時器";
