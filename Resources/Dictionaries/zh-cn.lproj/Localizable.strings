@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  Localizer
+
+  Created by cnwangjihe on 13.10.18.
+*/
+
+// App
+"App.Quit" = "退出";
+"App.LaunchAtLogin" = "登录时启动";
+
+// General
+"General.OK" = "确定";
+"General.Cancel" = "取消";
+
+// Clock
+"Clock.Alarm" = "闹钟";
+"Clock.Alarm.Set" = "设置";
+"Clock.Alarm.SetAlarm" = "设置闹钟";
+"Clock.Timer" = "计时器";
+"Clock.Timer.Start" = "开始";
+"Clock.Timer.SetTimer" = "设置计时器";
