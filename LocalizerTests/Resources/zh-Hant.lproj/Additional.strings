@@ -1,0 +1,10 @@
+/* 
+  Additional.strings
+  Localizer
+
+  Created by Nicolas Degen on 28.08.18.
+  Copyright © 2018 Nicolas Degen. All rights reserved.
+*/
+
+"AdditionalLanguage" = "Also english";
+"Test.Language" = "English 2";
