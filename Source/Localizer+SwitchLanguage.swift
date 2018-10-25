@@ -21,7 +21,7 @@ extension Localizer {
     NotificationCenter.default.post(name: Notification.Name(rawValue: didSwitchLanguageNotificationKey), object: nil)
   }
   
-  open class func availableLanguages(_ excludeBase: Bool = false, forBundle bundle: Bundle = mainBundle) -> Set<String> {
+  open class func availableLanguages(excludeBase: Bool = true, forBundle bundle: Bundle = mainBundle) -> Set<String> {
     var availableLanguages = Set<String>()
     if useOnlyMainBundleLanguages {
       mainBundle.localizations.forEach { localization in
@@ -41,8 +41,16 @@ extension Localizer {
     return availableLanguages
   }
   
-  open class func displayNameForLanguage(_ languageId: String) -> String {
+  open class func displayNameForLanguageId(_ languageId: String) -> String {
     let locale = NSLocale(localeIdentifier: currentLanguage)
+    if let displayName = locale.displayName(forKey: NSLocale.Key.identifier, value: languageId) {
+      return displayName
+    }
+    return String()
+  }
+
+  open class func nativeNameForLanguageId(_ languageId: String) -> String {
+    let locale = NSLocale(localeIdentifier: languageId)
     if let displayName = locale.displayName(forKey: NSLocale.Key.identifier, value: languageId) {
       return displayName
     }
