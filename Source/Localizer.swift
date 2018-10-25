@@ -21,7 +21,7 @@ public class Localizer {
   static let preferredUserLanguages = Locale.preferredLanguages
   static let currentLanguageUserDefaultsKey = "LocalizerCurrentLanguage"
   public static var defaultLanguageIdentifier = "en"
-  static var currentLanguage: String {
+  public static var currentLanguage: String {
     get {
         if let currentLanguage = UserDefaults.standard.object(forKey: currentLanguageUserDefaultsKey) as? String {
           return currentLanguage
