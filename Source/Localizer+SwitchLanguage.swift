@@ -22,11 +22,16 @@ extension Localizer {
   }
   
   open class func availableLanguages(_ excludeBase: Bool = false, forBundle bundle: Bundle = mainBundle) -> Set<String> {
-    
     var availableLanguages = Set<String>()
-    for (bundle, _) in bundleTableHierarchy {
-      bundle.localizations.forEach { localization in
+    if useOnlyMainBundleLanguages {
+      mainBundle.localizations.forEach { localization in
         availableLanguages.insert(localization)
+      }
+    } else {
+      for (bundle, _) in bundleTableHierarchy {
+        bundle.localizations.forEach { localization in
+          availableLanguages.insert(localization)
+        }
       }
     }
     // If excludeBase = true, don't include "Base" in available languages

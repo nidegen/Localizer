@@ -17,6 +17,7 @@ public class Localizer {
   
   // Language override
   public static var overrideDeviceLanguage = false
+  public static var useOnlyMainBundleLanguages = true
   static let deviceLocaleIdentifier = NSLocale.current.identifier
   static let preferredUserLanguages = Locale.preferredLanguages
   static let currentLanguageUserDefaultsKey = "LocalizerCurrentLanguage"
