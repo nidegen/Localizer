@@ -6,7 +6,7 @@
 //  Copyright © 2018 Nicolas Degen. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for Localizer.
 FOUNDATION_EXPORT double LocalizerVersionNumber;
