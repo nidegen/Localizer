@@ -21,13 +21,15 @@ public class Localizer {
   static let deviceLocaleIdentifier = NSLocale.current.identifier
   static let preferredUserLanguages = Locale.preferredLanguages
   static let currentLanguageUserDefaultsKey = "LocalizerCurrentLanguage"
-  public static var defaultLanguageIdentifier = "en"
   public static var currentLanguage: String {
     get {
         if let currentLanguage = UserDefaults.standard.object(forKey: currentLanguageUserDefaultsKey) as? String {
           return currentLanguage
-        }
-        return defaultLanguageIdentifier
+        } else if let preferredLanguage = NSLocale.preferredLanguages.first {
+          return preferredLanguage
+        } else {
+          return "en"
+      }
     }
   }
   
