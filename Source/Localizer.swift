@@ -70,10 +70,10 @@ public class Localizer {
     }
     if let path = bundle.path(forResource: Localizer.currentLanguage, ofType: "lproj"), let bundle = Bundle(path: path) {
       return bundle.localizedString(forKey: key, value: nil, table: table)
-    } else if let path = bundle.path(forResource: "Base", ofType: "lproj"),
-      let bundle = Bundle(path: path) {
+    } else if let path = bundle.path(forResource: String(Localizer.currentLanguage.prefix(2)), ofType: "lproj"),
+              let bundle = Bundle(path: path) {
       return bundle.localizedString(forKey: key, value: nil, table: table)
     }
-    return key
+    return bundle.localizedString(forKey: key, value: nil, table: table)
   }
 }
