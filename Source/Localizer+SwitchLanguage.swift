@@ -35,7 +35,7 @@ extension Localizer {
       }
     }
     // If excludeBase = true, don't include "Base" in available languages
-    if let indexOfBase = availableLanguages.index(of: "Base") , excludeBase == true {
+    if let indexOfBase = availableLanguages.firstIndex(of: "Base") , excludeBase == true {
       availableLanguages.remove(at: indexOfBase)
     }
     return availableLanguages

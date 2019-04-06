@@ -23,7 +23,7 @@ class AvailableLanguageTest: XCTestCase {
   }
   
   func testAvailableLanguages() {
-    let availableLanguages = Localizer.availableLanguages(false, forBundle: Bundle(for: type(of: self)))
+    let availableLanguages = Localizer.availableLanguages(excludeBase: false, forBundle: Bundle(for: type(of: self)))
     for lang in availableLanguages {
       print(lang)
     }
