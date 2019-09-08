@@ -13,6 +13,10 @@
 // General
 "General.OK" = "确定";
 "General.Cancel" = "取消";
+"General.About" = "About"; // TODO
+"General.Preferences" = "Preferences"; // TODO
+"General.Version" = "Version"; // TODO
+"General.Sounds" = "Sounds"; // TODO
 
 // Clock
 "Clock.Alarm" = "闹钟";

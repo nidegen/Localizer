@@ -13,6 +13,10 @@
 // General
 "General.OK" = "OK";
 "General.Cancel" = "Cancelar";
+"General.About" = "About"; // TODO
+"General.Preferences" = "Preferences"; // TODO
+"General.Version" = "Versião"; // TODO
+"General.Sounds" = "Sounds"; // TODO
 
 // Clock
 "Clock.Alarm" = "Alarme";

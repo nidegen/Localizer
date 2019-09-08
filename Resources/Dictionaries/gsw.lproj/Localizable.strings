@@ -13,6 +13,10 @@
 // General
 "General.OK" = "Okei";
 "General.Cancel" = "Abbräche";
+"General.About" = "Über";
+"General.Preferences" = "Istellige";
+"General.Version" = "Version";
+"General.Sounds" = "Tön";
 
 // Clock
 "Clock.Alarm" = "Wecker";
