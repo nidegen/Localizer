@@ -8,7 +8,7 @@
 
 // App
 "App.Quit" = "Schliessen";
-"App.LaunchAtLogin" = "Bie Login Starten";
+"App.LaunchAtLogin" = "Bei Login Starten";
 
 // General
 "General.OK" = "OK";
@@ -17,6 +17,12 @@
 "General.Preferences" = "Einstellungen";
 "General.Version" = "Version";
 "General.Sounds" = "Töne";
+"General.Alerts" = "Hinweise";
+"General.Advanced" = "Erweitert";
+"General.General" = "Allgemein";
+"General.Accounts" = "Accounts";
+"General.FullScreen" = "Vollbild";
+"General.Stop" = "Stopp";
 
 // Clock
 "Clock.Alarm" = "Wecker";

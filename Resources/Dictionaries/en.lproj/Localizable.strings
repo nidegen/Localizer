@@ -17,6 +17,12 @@
 "General.Preferences" = "Preferences";
 "General.Version" = "Version";
 "General.Sounds" = "Sounds";
+"General.Alerts" = "Alerts";
+"General.Advanced" = "Advanced";
+"General.General" = "General";
+"General.Accounts" = "Accounts";
+"General.FullScreen" = "Full Screen";
+"General.Stop" = "Stop";
 
 // Clock
 "Clock.Alarm" = "Alarm";
