@@ -5,10 +5,6 @@
 // General
 "General.OK" = "OK";
 "General.Cancel" = "Отмена";
-"General.About" = "About"; // TODO
-"General.Preferences" = "Preferences"; // TODO
-"General.Version" = "Version"; // TODO
-"General.Sounds" = "Sounds"; // TODO
 
 // Clock
 "Clock.Alarm" = "Будильник";

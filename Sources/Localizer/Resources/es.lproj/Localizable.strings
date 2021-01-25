@@ -5,10 +5,10 @@
 // General
 "General.OK" = "OK";
 "General.Cancel" = "Cancelar";
-"General.About" = "About"; // TODO
-"General.Preferences" = "Preferences"; // TODO
-"General.Version" = "Version"; // TODO
-"General.Sounds" = "Sounds"; // TODO
+"General.About" = "Informaciones";
+"General.Preferences" = "Preferences";
+"General.Version" = "Versión";
+"General.Sounds" = "Sonidos";
 
 // Clock
 "Clock.Alarm" = "Alarma";
