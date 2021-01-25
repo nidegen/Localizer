@@ -1,11 +1,3 @@
-/* 
-  Localizable.strings
-  Localizer
-
-  Created by cnwangjihe on 13.10.18.
-  Copyright © 2018 cnwangjihe. All rights reserved.
-*/
-
 // App
 "App.Quit" = "退出";
 "App.LaunchAtLogin" = "登录时启动";

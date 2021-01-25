@@ -1,11 +1,3 @@
-/* 
-  Localizable.strings
-  Localizer
-
-  Created by Danil Tkachenko on 08.10.18.
-  Copyright © 2018 Nicolas Degen. All rights reserved.
-*/
-
 // App
 "App.Quit" = "Выход";
 "App.LaunchAtLogin" = "Запускать при входе в систему";

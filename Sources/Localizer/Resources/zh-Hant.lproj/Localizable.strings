@@ -1,11 +1,3 @@
-/* 
-  Localizable.strings
-  Localizer
-
-  Created by Yubin on 10.10.18.
-  Copyright © 2018 Yubin. All rights reserved.
-*/
-
 // App
 "App.Quit" = "結束";
 "App.LaunchAtLogin" = "開啟並登入";

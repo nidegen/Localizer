@@ -1,11 +1,3 @@
-/* 
-  Localizable.strings
-  Localizer
-
-  Created by Nicolas Degen on 24.06.18.
-  Copyright © 2018 Nicolas Degen. All rights reserved.
-*/
-
 // App
 "App.Quit" = "Escire";
 "App.LaunchAtLogin" = "Avvio al login";
